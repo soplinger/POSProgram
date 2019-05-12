@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Register">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="5fc2b">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="7ec04" class="javax.swing.JButton" binding="iceCreamButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ice Cream"/>
+        </properties>
+      </component>
+      <component id="ce46f" class="javax.swing.JList" binding="cart">
+        <constraints>
+          <grid row="0" column="2" row-span="6" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="43596" class="javax.swing.JButton" binding="blizzardsButton">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Blizzards"/>
+        </properties>
+      </component>
+      <component id="d277" class="javax.swing.JButton" binding="moolatesButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Moolates"/>
+        </properties>
+      </component>
+      <component id="50b5a" class="javax.swing.JButton" binding="royalsHotDesertsButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Royals/Hot Deserts"/>
+        </properties>
+      </component>
+      <component id="996dd" class="javax.swing.JButton" binding="conesButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cones"/>
+        </properties>
+      </component>
+      <component id="e3e55" class="javax.swing.JButton" binding="milkshakesButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Milkshakes"/>
+        </properties>
+      </component>
+      <component id="4292e" class="javax.swing.JButton" binding="sundaesButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Sundaes"/>
+        </properties>
+      </component>
+      <component id="3de85" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="9991b" class="javax.swing.JLabel" binding="totalLabel">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Total"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

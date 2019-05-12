@@ -6,18 +6,40 @@ public class Blizzards {
     public String bSize;
     public double bPrice;
 
-    public Blizzards(String name, String size){
-        bName = name;
-        bSize = size.toLowerCase();
-        if (bSize.equals("mini"))
-            bPrice = 2.89;
-        if (bSize.equals("small"))
-            bPrice = 3.69;
-        if (bSize.equals("medium"))
-            bPrice = 4.09;
-        if (bSize.equals("large"))
-            bPrice = 4.59;
+    public Blizzards(String bName, String bSize, double bPrice) {
+        this.bName = bName;
+        this.bSize = bSize;
+        this.bPrice = bPrice;
     }
 
+    public String getbName() {
+        return bName;
+    }
 
+    public void setbName(String bName) {
+        this.bName = bName;
+    }
+
+    public String getbSize() {
+        return bSize;
+    }
+
+    public void setbSize(String bSize) {
+        this.bSize = bSize;
+    }
+
+    public double getbPrice() {
+        return bPrice;
+    }
+
+    public void setbPrice(double bPrice) {
+        this.bPrice = bPrice;
+    }
+
+    @Override
+    public String toString() {
+        return "Blizzards{" +
+                "bName='" + bName + '\'' +
+                '}';
+    }
 }
